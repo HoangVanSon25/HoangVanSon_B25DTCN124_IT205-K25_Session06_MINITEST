@@ -5,7 +5,7 @@ for i in range(number_of_valid_packages):
     print(f"Nhập số lượng của thùng thứ {i+1}")
     total_number_of_products = int(input("Nhập số lượng sản phẩm: "))
     
-    if number_of_valid_packages == 0 :
+    if number_of_valid_packages <= 0 :
         break
     else:
         if total_number_of_products < 0:
